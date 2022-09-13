@@ -1,0 +1,11 @@
+.component6-container {
+  display: flex;
+  position: relative;
+}
+.component6-text {
+  color: var(--dl-color-gray-700);
+  font-size: 28px;
+}
+.component6-text2 {
+  color: var(--dl-color-gray-700);
+}

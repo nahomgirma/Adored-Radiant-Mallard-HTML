@@ -1,0 +1,26 @@
+.component2-container {
+  display: flex;
+  position: relative;
+}
+.component2-text {
+  color: var(--dl-color-gray-700);
+}
+.component2-text1 {
+  font-size: 28px;
+}
+.component2-text2 {
+  color: var(--dl-color-gray-700);
+  font-size: 28px;
+}
+.component2-text3 {
+  font-size: 28px;
+}
+.component2-text4 {
+  font-size: 28px;
+}
+.component2-text5 {
+  font-size: 28px;
+}
+.component2-text6 {
+  font-size: 28px;
+}
