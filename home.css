@@ -88,6 +88,18 @@
   align-items: center;
   flex-direction: row;
 }
+.home-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.home-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
 .home-burger-menu {
   display: none;
 }
@@ -109,7 +121,7 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.home-nav1 {
+.home-nav2 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -180,7 +192,7 @@
   justify-content: space-between;
   background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
 }
-.home-text {
+.home-text3 {
   color: var(--dl-color-gray-black);
 }
 .home-icon-group1 {
@@ -225,6 +237,21 @@
   .home-nav {
     display: none;
   }
+  .home-nav1 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .home-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .home-burger-menu {
     display: flex;
     align-items: center;
@@ -238,7 +265,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text {
+  .home-text3 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -255,7 +282,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .home-text {
+  .home-text3 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
